@@ -7,7 +7,7 @@ import urllib
 import datetime
 
 timeNow = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
-localFile = timeNow + ".json"
+localFile = "/home/nick/weather/" + timeNow + ".json"
 urllib.urlretrieve("http://www.weatherlink.com/mapstations.json", localFile);
 
 with open("/home/nick/weather/log.txt", "a") as myfile:
