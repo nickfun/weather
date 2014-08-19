@@ -1,0 +1,24 @@
+#+TITLE: Notes
+#+AUTHOR: Nick F
+#+DATE: <2014-08-12 Tue>
+
+* Phase 1 [1/3]
+** DONE Collect Data
+- Simple python and cron to download public json every hour.
+** TODO Setup Database
+- Riak cluster
+- How to structure the data?
+** TODO Parse Data
+- Java or Python tool to suck up all the json files i've downloaded so far
+- keep track of what has already been processed
+- fake some extra data, only have temp right now
+* Phase 2 [0/3]
+Goals:
+1. One application
+2. many parts
+3. coordinate via threads & message passing
+4. Java!
+** TODO Collect Data
+** TODO Parse Data
+** TODO Fake Data
+
